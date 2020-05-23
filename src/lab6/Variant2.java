@@ -10,6 +10,7 @@ import java.util.Set;
  * - поиск числа, наиболее близкого к заданному (т.е. модуль разницы минимален).
  */
 public class Variant2 {
+
     private final Set<Integer> values = new HashSet<>();
 
     public boolean addNumber(final int number) {
@@ -37,6 +38,6 @@ public class Variant2 {
             }
         }
         return candidate;
-
     }
+
 }

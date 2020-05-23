@@ -12,6 +12,7 @@ import java.util.List;
  * Выполнить сортировку строк
  */
 public class Variant1 {
+
     public void work() throws IOException {
         final Class clazz = Variant1.class;
         final InputStream inputStream = clazz.getResourceAsStream("variant1.txt");
@@ -30,4 +31,5 @@ public class Variant1 {
         }
         return result;
     }
+
 }
