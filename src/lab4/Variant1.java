@@ -11,8 +11,7 @@ public class Variant1 {
         mobile.getMobileInfos().forEach(mobileInfo ->
                                             mobileInfo.getMobiles()
                                                       .forEach(mobileModel -> mobileModel.getProperties()
-                                                                                         .forEach(System.out::println))
-        );
+                                                                                         .forEach(System.out::println)));
     }
 
 }
