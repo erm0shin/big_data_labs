@@ -8,7 +8,7 @@ public class Variant1 {
     private final String text;
     private final int repeatNumber;
 
-    public Variant1(String text, int repeatNumber) {
+    public Variant1(final String text, final int repeatNumber) {
         this.text = text;
         this.repeatNumber = repeatNumber;
     }
