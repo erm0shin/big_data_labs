@@ -11,7 +11,7 @@ public class Car {
     private static final AtomicLong idGenerator = new AtomicLong(0);
 
     private final long id = idGenerator.incrementAndGet();
-    ;
+
     private String mark;
     private String model;
     private int manufactureYear;
